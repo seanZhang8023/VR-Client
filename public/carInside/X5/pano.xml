@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama apprev="17227" hideabout="1" id="node1" appversion="6.0.1">
+  <input overlap="1" height="1194" width="1194" levelbias="0.400" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+    <level predecode="0" height="1194" width="1194" preload="0"/>
+    <level predecode="0" height="597" width="597" preload="0"/>
+    <level predecode="1" height="298" width="298" preload="1"/>
+    <preview strip="1" color="0x808080"/>
+  </input>
+  <view pannorth="0" fovmode="1">
+    <start projection="4" pan="0" tilt="0" fov="123.542"/>
+    <flyin projection="9" pan="90" tilt="-90" fov="280"/>
+    <min pan="0" tilt="-90" fovpixel="100"/>
+    <max fovstereographic="260" pan="360" fovfisheye="360" tilt="90" fov="120" scaletofit="1"/>
+  </view>
+  <userdata longitude="" comment="" latitude="" info="" tags="pano2vr" title="Benz" description="" customnodeid="" author="Anthony" datetime="" copyright="Voice" source=""/>
+  <hotspots height="20" width="180" wordwrap="1">
+    <label background="1" bordercolor="0x000000" backgroundalpha="1" textcolor="0x000000" height="20" width="180" borderalpha="1" backgroundcolor="0xffffff" enabled="1" wordwrap="1" textalpha="1" borderradius="1" border="1"/>
+    <polystyle bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
+  </hotspots>
+  <media/>
+  <transition zoomout="0" zoomfov="20" type="wipetopbottom" blendtime="1" softedge="0" zoomin="0" zoomoutpause="1" enabled="1" zoomspeed="2" blendcolor="0x000000"/>
+  <flyintransition speed="1.50" enabled="1"/>
+  <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+  <control rubberband="1" speedwheel="1" invertcontrol="1" contextfullscreen="1" dblclickfullscreen="1" sensitivity="14" lockedwheel="1" contextprojections="1" hideabout="1" lockedkeyboard="0" invertwheel="0" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0">
+    <menulink text="云瀚股份 Voice 0.1" url=""/>
+  </control>
+</panorama>

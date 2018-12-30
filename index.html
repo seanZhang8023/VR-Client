@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>多渠道汽车后服务平台</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <script src="/jquery/jquery.js"></script>
+    <script src="/js/pdt360DegViewer.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>>
+  </body>
+  <script src="/vendors.dll.js"></script>
+  <script src="/static/bundle.js"></script>
+  <script>
+      function changeFrameHeight(){
+          var ifm= document.getElementById("container2");
+          var VR = document.getElementById("VR-conten");
+          ifm.height=VR.height;
+
+      }
+
+      window.onresize=function(){
+          changeFrameHeight();
+
+      }
+  </script>
+</html>

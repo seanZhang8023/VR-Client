@@ -1,0 +1,14 @@
+/.idea
+node_modules/
+build/
+dist/
+public/temp/
+!public/temp/index.js
+public/uploadImage/
+public/zip/
+logs/
+public/apks/
+public/appLog/
+!public/appLog/index.js
+public/images/portrait/
+!public/images/portrait/index.js

@@ -1,0 +1,6 @@
+[16:42:17] Requiring external module babel-register
+[16:42:19] Using gulpfile ~/Live-Support/Live-Support-Agent/Gulpfile.babel.js
+[16:42:19] Starting 'serve'...
+[16:42:19] Finished 'serve' after 94 ms
+[16:42:19] [webpack-dev-server] http://localhost:8888/webpack-dev-server/index.html
+Connected to Database.

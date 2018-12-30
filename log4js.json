@@ -1,0 +1,13 @@
+{
+  "appenders": [
+    {
+      "type": "console"
+    },
+    {
+      "type": "file",
+      "filename": "agent.log",
+      "maxLogSize":1000,
+      "category": ["agentLog"]
+    } ],
+  "levels":{ "agentLog": "DEBUG"}
+}

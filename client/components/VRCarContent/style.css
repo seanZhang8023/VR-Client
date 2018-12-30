@@ -1,0 +1,26 @@
+.VR-content{
+    height: 100%;
+    width: 75%;
+
+}
+
+img {
+    max-height: 766px;
+    max-width: 1200px;
+    border: solid;
+}
+
+.in-out-btn{
+    height: 10%;
+    width: 75%;
+}
+.VR-content-container{
+    height: 80%;
+    width: 75%;
+    border: solid;
+}
+
+.VR-content-footer{
+    height: 10%;
+    width: 75%;
+}

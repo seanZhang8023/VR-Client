@@ -1,0 +1,14 @@
+---
+env:
+  node: true
+  es6: false
+ecmaFeatures:
+  modules: false
+  jsx: false
+rules:
+  quotes:
+    - 2
+    - single
+  strict:
+    - 2
+    - global

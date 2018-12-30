@@ -1,0 +1,78 @@
+#pdtViewer.container {
+    width: 67%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+#pdtViewer img {  }
+@media screen and (max-width:950px) {
+
+    #pdtViewer img { max-width: 100%; max-height: 100% }
+}
+
+#pdtViewer .nxt { left: 85%; }
+
+#pdtViewer .prev { left: 12%; }
+
+#pdtViewer button {
+    position: absolute;
+    top: 57%;
+    background: none;
+    border-radius: 30px;
+    padding: 0;
+    font-weight: bold;
+    font-size: 30px;
+    width: 50px;
+    cursor: pointer;
+    height: 52px;
+    box-shadow: 0 6px 15px #aaa;
+}
+
+#pdtViewer button:focus { outline: 0; }
+
+
+
+#loader {
+    width: 67%;
+    height: 450px;
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+}
+
+.three-bounce {
+    text-align: center;
+    font-size: 26px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.three-bounce div {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    background-color: #fff;
+    -webkit-animation: bouncedelay 1.4s infinite ease-in-out both;
+    animation: bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.three-bounce .one {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+
+.three-bounce .two {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+@keyframes
+bouncedelay {  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+    40% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+    }
+}
