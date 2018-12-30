@@ -1,4 +1,4 @@
-# Kandy Live Support Package - Agent
+# VR Client
 
 ### Development Dependencies
 
